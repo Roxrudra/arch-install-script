@@ -213,7 +213,6 @@ echo -en "\e[1;32m██╗███╗   ██╗███████╗█�
 		echo -en "╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ \n\n\e[0;0m"
 
 ####################____TEST____#####################
-exit 0
 
 # Time
 timedatectl set-timezone $timezn
@@ -236,7 +235,7 @@ mount /dev/$dri_h /mnt/home
 swapon /dev/$dri_s
 
 # Pacstrap
-pacstrap /mnt base $linux linux-firmware $ucode base-devel vim vim-airline networkmanager nm-connection-editor wireless-tools bash-completion less
+pacstrap /mnt base $linux linux-firmware $ucode base-devel vim vim-airline networkmanager nm-connection-editor wireless_tools bash-completion less
 
 # Fstab
 genfstab -U /mnt >> /mnt/etc/fstab
