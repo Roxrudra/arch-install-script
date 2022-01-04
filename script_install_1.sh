@@ -243,6 +243,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 # copy next script
 cp script_install_2.sh /mnt/root/
+cp my.sh /mnt/root/
 
 # Execute second script in chroot
 arch-chroot /mnt /root/script_install_2.sh $timezn $loc $host $user $pas $rpas $linux $ucode $dri_r
