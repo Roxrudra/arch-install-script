@@ -1,6 +1,14 @@
 #!/bin/bash
-sudo pacman -S --noconfirm xdg-user-dirs gvfs-mtp mesa mesa-demos mesa-utils xf86-video-amdgpu amdvlk xf86-input-evdev xf86-input-synaptics xf86-input-wacom xf86-input-libinput xorg xorg-xinit i3-gaps rofi kitty python python3 xss-lock nitrogen neofetch alsa-utils pavucontrol pulseaudio pulseaudio-bluetooth bluez bluez-utils blueman wget ttf-font-awesome ttf-nerd-fonts-symbols ttf-droid ttf-liberation firefox vlc p7zip evince gtk-chtheme lxappearance imagemagick cheese gtk2 gtk3 gtk4 adapta-gtk-theme
-yay -S polybar picom-ibhagwan-git pipes.sh i3lock-color betterlockscreen siji-git
+sudo pacman -S --noconfirm xdg-user-dirs gvfs-mtp 
+sudo pacman -S --noconfirm mesa mesa-demos mesa-utils xf86-video-amdgpu amdvlk 
+sudo pacman -S --noconfirm xf86-input-evdev xf86-input-synaptics xf86-input-wacom xf86-input-libinput xorg xorg-xinit
+sudo pacman -S --noconfirm i3-gaps rofi kitty python python3 xss-lock
+sudo pacman -S --noconfirm nitrogen neofetch 
+sudo pacman -S --noconfirm alsa-utils pavucontrol pulseaudio pulseaudio-bluetooth bluez bluez-utils blueman 
+sudo pacman -S --noconfirm wget 
+sudo pacman -S --noconfirm ttf-font-awesome ttf-nerd-fonts-symbols ttf-droid ttf-liberation firefox 
+sudo pacman -S --noconfirm vlc p7zip evince gtk-chtheme lxappearance imagemagick cheese gtk2 gtk3 gtk4 adapta-gtk-theme
+sudo pacman -S --noconfirm yay -S polybar picom-ibhagwan-git pipes.sh i3lock-color betterlockscreen siji-git
 
 exit 0
 
