@@ -43,20 +43,4 @@ echo -e "options\troot=/dev/$9 rw" >> 02_arch-fallback.conf
 
 systemctl enable NetworkManager.service
 
-cd /opt
-git clone https://aur.archlinux.org/preloader-signed.git
-git clone https://aur.archlinux.org/yay.git
-chown -R $4:$4 preloader-signed/
-chown -R $4:$4 yay/
-
-
-
-################################################################################
-
-
-echo "sudo pacman -S --noconfirm xdg-user-dirs gvfs-mtp mesa mesa-demos mesa-utils xf86-video-amdgpu amdvlk xf86-input-evdev xf86-input-synaptics xf86-input-wacom xf86-input-libinput xorg xorg-xinit i3-gaps rofi kitty python python3 xss-lock nitrogen neofetch alsa-utils pavucontrol pulseaudio pulseaudio-bluetooth bluez bluez-utils blueman wget ttf-font-awesome ttf-nerd-fonts-symbols ttf-droid ttf-liberation firefox vlc p7zip evince gtk-chtheme lxappearance imagemagick cheese gtk2 gtk3 gtk4 adapta-gtk-theme" > /home/$4/my
-
-echo "yay -S polybar picom pipes.sh i3lock-color betterlockscreen siji-git" >> /home/$4/my
-
-echo -en "\e[1;32mFinished"
-
+cp /root/my.sh /home/$4/
