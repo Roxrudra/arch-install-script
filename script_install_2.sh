@@ -5,10 +5,10 @@ timedatectl set-timezone $1
 timedatectl set-ntp true
 
 # Generate locale
-#sed -i 's/#'$2'/'$2'/' /etc/locale.gen
-#locale-gen
-#echo "LANG=$2"  > /etc/locale.conf
-#export LANG=$2
+sed -i 's/#'$2'/'$2'/' /etc/locale.gen
+locale-gen
+echo "LANG=$2"  > /etc/locale.conf
+export LANG=$2
 
 # Setup hostname
 echo "$3" > /etc/hostname
