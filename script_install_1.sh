@@ -101,8 +101,8 @@ echo -en "\e[1;32mKernel: $linux    Ucode: $ucode\n"
 ###############################
 ####____locale ,hostname___####
 ###############################
-loc="en_IN.UTF-8"
-echo -en "\e[0;32mSet locale \e[1;32m[Default en_IN.UTF-8]:\e[0;0m"
+loc="en_IN"
+echo -en "\e[0;32mSet locale \e[1;32m[Default en_IN]:\e[0;0m"
 read buf
 if [[ ! -z "$buf" ]]; then
 	loc=$buf
