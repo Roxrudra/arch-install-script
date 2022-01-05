@@ -10,7 +10,7 @@ sudo pacman -S --noconfirm ttf-font-awesome ttf-nerd-fonts-symbols ttf-droid ttf
 sudo pacman -S --noconfirm vlc p7zip evince firefox gtk-chtheme lxappearance imagemagick cheese gtk2 gtk3 gtk4 adapta-gtk-theme ranger
 sudo pacman -S --noconfirm cmus htop
 
-yay -S polybar picom-ibhagwan-git pipes.sh i3lock-color betterlockscreen siji-git cava
+yay -S polybar picom-ibhagwan-git pipes.sh i3lock-color betterlockscreen siji-git cava selectdefaultapplication-git
 
 exit 0
 
