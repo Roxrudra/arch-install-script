@@ -7,9 +7,9 @@ sudo pacman -S --noconfirm nitrogen neofetch
 sudo pacman -S --noconfirm alsa-utils pavucontrol pulseaudio pulseaudio-bluetooth bluez bluez-utils blueman 
 sudo pacman -S --noconfirm wget 
 sudo pacman -S --noconfirm ttf-font-awesome ttf-nerd-fonts-symbols ttf-droid ttf-liberation
-sudo pacman -S --noconfirm vlc p7zip evince firefox gtk-chtheme lxappearance imagemagick cheese gtk2 gtk3 gtk4 adapta-gtk-theme ranger
+sudo pacman -S --noconfirm vlc p7zip evince firefox gtk-chtheme lxappearance imagemagick cheese gtk2 gtk3 gtk4 adapta-gtk-theme thunar
 sudo pacman -S --noconfirm zathura zathura-pdf-mupdf fd fzf
-sudo pacman -S --noconfirm cmus htop
+sudo pacman -S --noconfirm cmus htop tumbler
 
 yay -S polybar picom-ibhagwan-git pipes.sh i3lock-color betterlockscreen siji-git cava selectdefaultapplication-git
 
