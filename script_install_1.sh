@@ -236,7 +236,7 @@ mount /dev/$dri_h /mnt/home
 swapon /dev/$dri_s
 
 # Pacstrap
-pacstrap /mnt base $linux linux-firmware $ucode base-devel vim vim-airline networkmanager nm-connection-editor wireless_tools bash-completion less
+pacstrap /mnt base $linux linux-firmware $ucode base-devel vim vim-airline networkmanager nm-connection-editor wireless_tools bash-completion less bc
 
 # Fstab
 genfstab -U /mnt >> /mnt/etc/fstab
